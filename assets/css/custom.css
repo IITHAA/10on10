@@ -272,19 +272,40 @@
 }
 
 .nominationTextSection {
-  background-color: #ffffff;
-  color: #0b1f4c;
- }
- .nominationTextDiv {
-  display: flex;
-  align-items: center;
-  justify-content: center;
- }
- .nominationText {
-  align-self: center;
-  width: 70%;
-  margin-top: 30vh;
-  margin-bottom: 30vh;
-  text-align: center;
- }
- 
+ background-color: #ffffff;
+ color: #0b1f4c;
+}
+.nominationTextDiv {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+.nominationText {
+ align-self: center;
+ width: 70%;
+ margin-top: 30vh;
+ margin-bottom: 30vh;
+ text-align: center;
+}
+
+/* nomination page */
+.nominationPageHeading {
+ text-align: center;
+ margin-top: 30vh;
+}
+
+.nominateNow {
+ padding: 10vh;
+}
+.nominationCards {
+ padding: 5%;
+ margin: 5%;
+ background-color: 0b1f4c;
+ color: rgb(0, 0, 0);
+ border-radius: 20px;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.nominationCards:hover{
+  background-color: #06c9fa73;
+}
