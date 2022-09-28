@@ -253,9 +253,22 @@
  margin-top: 30vh;
 }
 
+@media screen and (max-width: 768px) {
+ .landingImageSection {
+  background-color: #0b1f4c;
+  height: 100%;
+  padding-top: 80px;
+ }
+ .landingImage {
+  width: 100%;
+  margin-top: 30vh;
+  margin-bottom: 30vh;
+ }
+}
+
 .landingTextSection {
  background-color: #06cafa;
- height: 100vh;
+ min-height: 100vh;
  color: #0b1f4c;
 }
 .landingTextDiv {
@@ -306,6 +319,6 @@
  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.nominationCards:hover{
-  background-color: #06c9fa73;
+.nominationCards:hover {
+ background-color: #06c9fa73;
 }
