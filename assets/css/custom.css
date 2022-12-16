@@ -325,16 +325,40 @@
 }
 
 .juryCard {
- width: 70%;
- margin: 3% 15%;
- border-radius: 10px;
+ height: 90%;
+ margin: 5%;
+ text-align: center;
+ padding: 5px;
+ border-radius: 15px;
  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.juryCard img {
- width: 80%;
- margin: 10%;
+
+ -webkit-transform: perspective(1px) translateZ(0);
+ transform: perspective(1px) translateZ(0);
+ -webkit-transition-duration: 0.3s;
+ transition-duration: 0.3s;
+ -webkit-transition-property: transform;
+ transition-property: transform;
 }
 
+.juryCard:hover {
+ -webkit-transform: scale(1.05);
+ transform: scale(1.05);
+ box-shadow: 0 4px 8px 0 #0b1f4c, 0 6px 20px 0 #0b1f4c;
+}
+
+.juryCard img {
+ padding: 5px;
+ width: 80%;
+ margin: 10%;
+ border-radius: 50%;
+ border: 2px solid rgb(0, 0, 0);
+ box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.juryCard h4 {
+ padding: 10px;
+ padding-bottom: 25px;
+}
 /* Team Page */
 .teamPage10on10 {
  height: 90%;
