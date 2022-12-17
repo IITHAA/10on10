@@ -267,6 +267,17 @@
  .landingTextSection {
   min-height: 100%;
  }
+ .homePageTitle h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  margin-top: 5vh;
+ }
+ .homePageTitle h2 {
+  font-size: 1.5rem;
+ }
+ .venueSection{
+    margin-bottom: 10vh;
+ }
 }
 
 .landingTextSection {
