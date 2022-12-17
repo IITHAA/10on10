@@ -275,8 +275,8 @@
  .homePageTitle h2 {
   font-size: 1.5rem;
  }
- .venueSection{
-    margin-bottom: 10vh;
+ .venueSection {
+  margin-bottom: 10vh;
  }
 }
 
@@ -410,6 +410,9 @@
  .timer {
   margin-top: 80px;
   margin-bottom: 30px;
+ }
+ .homePageTitleEnding {
+  margin-bottom: 20px;
  }
 }
 
