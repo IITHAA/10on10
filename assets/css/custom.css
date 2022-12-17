@@ -240,7 +240,7 @@
 /* Landing page */
 .landingImageSection {
  background-color: #0b1f4c;
- height: 100vh;
+ min-height: 100vh;
 }
 .landingDiv {
  display: flex;
@@ -261,8 +261,11 @@
  }
  .landingImage {
   width: 100%;
-  margin-top: 30vh;
-  margin-bottom: 30vh;
+  margin: 10px;
+ }
+
+ .landingTextSection {
+  min-height: 100%;
  }
 }
 
@@ -282,6 +285,15 @@
  margin-top: 30vh;
  text-align: center;
  margin-bottom: 30vh;
+}
+
+@media screen and (max-width: 768px) {
+ .landingText {
+  align-self: center;
+  width: 100%;
+  margin: 10px;
+  text-align: center;
+ }
 }
 
 .nominationTextSection {
@@ -371,4 +383,60 @@
 
 .teamPage10on10 h5 {
  margin: 10px;
+}
+
+/* Home Page Timer */
+.timer {
+ text-align: center;
+ margin-top: 10vh;
+ font-size: 4em;
+ font-weight: 600;
+ color: white;
+ text-shadow: 0 0 20px #48c8ff;
+}
+
+@media screen and (max-width: 768px) {
+ .timer {
+  margin-top: 80px;
+  margin-bottom: 30px;
+ }
+}
+
+.timer div {
+ display: inline-block;
+ min-width: 180px;
+}
+.timer span {
+ color: #b1cdf1;
+ display: block;
+ font-size: 0.3em;
+ font-weight: 400;
+}
+
+.eventDate {
+ color: #b1cdf1;
+ display: block;
+ font-size: 2em;
+ font-weight: 400;
+ text-shadow: 0 0 20px #48c8ff;
+}
+
+.homePageTitle {
+ color: #b1cdf1;
+ text-shadow: 0 0 20px #48c8ff;
+ text-align: center;
+}
+
+.homePageTitleEnding {
+ font-size: 2em;
+ color: #b1cdf1;
+ text-shadow: 0 0 20px #48c8ff;
+ text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+ .homePageTitle {
+  padding-top: 20vh;
+  font-size: 2.5em;
+ }
 }
