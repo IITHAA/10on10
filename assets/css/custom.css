@@ -397,66 +397,24 @@
  margin: 10px;
 }
 
-/* Home Page Timer */
-.timer {
+.finalistsCard {
+ height: 90%;
+ margin: 5%;
  text-align: center;
- margin-top: 10vh;
- font-size: 4em;
- font-weight: 600;
- color: white;
- text-shadow: 0 0 20px #48c8ff;
+ padding: 5px;
+ border-radius: 15px;
+ box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
-@media screen and (max-width: 768px) {
- .timer {
-  margin-top: 80px;
-  margin-bottom: 30px;
- }
- .homePageTitleEnding {
-  margin-bottom: 20px;
- }
+.finalistsCard h5 {
+ margin: 10px;
 }
 
-.timer div {
- display: inline-block;
- min-width: 180px;
-}
-.timer span {
- color: #b1cdf1;
- display: block;
- font-size: 0.3em;
- font-weight: 400;
-}
-
-.eventDate {
- color: #b1cdf1;
- display: block;
- font-size: 2em;
- font-weight: 400;
- text-shadow: 0 0 20px #48c8ff;
-}
-
-.homePageTitle {
- color: #b1cdf1;
- text-shadow: 0 0 20px #48c8ff;
- text-align: center;
-}
-
-.homePageTitleEnding {
- font-size: 2em;
- color: #b1cdf1;
- text-shadow: 0 0 20px #48c8ff;
- text-align: center;
-}
-
-@media screen and (min-width: 768px) {
- .homePageTitle {
-  padding-top: 20vh;
- }
- .homePageTitle h1 {
-  font-size: 3em;
- }
- .venueSection {
-  margin-bottom: 30vh;
- }
+.finalistsCard img {
+ width: 80%;
+ padding: 5px;
+ margin: 10px;
+ border-radius: 50%;
+ border: 2px solid rgb(0, 0, 0);
+ box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
 }
