@@ -459,4 +459,34 @@
  .venueSection {
   margin-bottom: 30vh;
  }
+ .finalistsCard img {
+  width: 80%;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 50%;
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+ }
+}
+
+.finalistsCard {
+ height: 90%;
+ margin: 5%;
+ text-align: center;
+ padding: 5px;
+ border-radius: 15px;
+ box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.finalistsCard h5 {
+ margin: 10px;
+}
+
+.finalistsCard img {
+ width: 80%;
+ padding: 5px;
+ margin: 10px;
+ border-radius: 50%;
+ border: 2px solid rgb(0, 0, 0);
+ box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
 }
