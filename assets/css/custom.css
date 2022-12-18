@@ -348,8 +348,9 @@
 }
 
 .juryCard {
- height: 90%;
+ height: 95%;
  margin: 5%;
+ padding-top: 10px;
  text-align: center;
  padding: 5px;
  border-radius: 15px;
